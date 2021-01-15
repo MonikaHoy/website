@@ -1,0 +1,42 @@
+.fresh {
+    background: indigo; 
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px; 
+    border: 2px solid black; 
+    color: white;
+    transition: .3s ease-in-out;
+  }
+  .fresh:hover {
+    background: maroon;
+    color: white;
+  }
+  label {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  .fruity {
+    border: 1px solid steelblue; 
+  }
+  .lime {
+    background: orangered;
+    font-weight: bold;
+    color: white;
+    padding: 5px 12px; 
+    border: 2px solid transparent;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+  }
+  .lime:hover {
+    background: white;
+    color: orangered;
+    border: 2px solid orangered;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
