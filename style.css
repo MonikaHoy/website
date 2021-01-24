@@ -1,9 +1,96 @@
 html {
-    background: #2E3440;
-    color: #ECEFF4;
-    font-family: sans-serif;
-  }
-  
-  a{color: #BF616A;}
-  h1{font-size: 56px;}
-  p{font-size: 28px;}
+  background: #ECEFF4;
+  color: #2E3440;
+  font-family: sans-serif;
+}
+
+a{color:#5E81AC;}
+h1{font-size: 56px;}
+p{font-size: 28px;}
+h2{
+  font-size: 18px; 
+  font-weight: lighter;}
+h3{ font-size: 30px;}
+
+
+.dane {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #292D3E url(../img/vlad-goran-2.jpg);
+  background-size: cover;
+  margin: calc(var(--fr) * 2) auto;
+  margin-top: 0;
+}
+
+
+.faroe {
+font-size: 18px;
+color: #4C566A;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.fruity {
+  border: 2px solid transparent;
+  background: #D8DEE9;
+  width: 40%;
+  padding: 8px;
+  margin-top; 0px;
+}
+
+.lime {
+  background: #BF616A;
+  font-weight: bold;
+  color: white;
+  padding: 5px 12px; 
+  border: 2px solid transparent;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+}
+.lime:hover {
+  background: #B48EAD;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.padded {
+padding: 40px;
+margin: 0 auto;
+max width: 1000px;
+text-align: center;
+}
+
+.paddington {
+  padding: 40px;
+  margin: 0 auto;
+  max width; 1000px;
+}
+
+.container {
+	display: flex;
+}
+
+.column-a {
+  width: 35%;
+  border-top: 40px solid transparent;
+  border-left: 40px solid transparent;
+}
+
+.column-b{
+  width: 65%;
+  border-top: 60px solid transparent;
+  border-left: 20px solid transparent;
+}
+
+.column-c{
+  border-top: 60px solid transparent;
+  border-left: 40px solid transparent;
+}
+
