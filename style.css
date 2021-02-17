@@ -21,8 +21,8 @@ font-weight: bolder}
 
 
 .intro {
-font-size: 18px;
-color: #E5E9F0;
+font-size: 22px;
+color: #D8DEE9;
 }
 
 label {
@@ -45,7 +45,7 @@ input {
 }
 
 .submitbutton {
-  background: #B48EAD;
+  background: #BF616A;
   font-weight: bold;
   color: white;
   padding: 5px 12px; 
@@ -73,6 +73,7 @@ input {
 .container2 {
   text-align: center;
   margin-top: 140px;
+  margin-bottom: 85px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -80,7 +81,7 @@ input {
 .column-a {
   width: 40%;
   border-top: 40px solid transparent;
-  border-left: 40px solid transparent;
+  border-left: 60px solid transparent;
 }
 
 .column-b{
@@ -97,7 +98,7 @@ input {
 .formtitle{
   font-size: 20px;
   font-weight: bolder;
-  color: #B48EAD;
+  color: #BF616A;
 }
 
 .picture{
