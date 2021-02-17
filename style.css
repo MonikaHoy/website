@@ -4,46 +4,48 @@ html {
   font-family: sans-serif;
 }
 
-a{color:#5E81AC;}
-h1{font-size: 56px;}
+a{
+  color:#81A1C1;
+font-size: 18px;}
+h1{font-size: 48px;}
 p{font-size: 28px;}
 h2{
   font-size: 18px; 
   font-weight: lighter;}
-h3{ font-size: 30px;}
+h3{ font-size: 26px;
+font-weight: bolder}
 
-
-.dane {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-  background: #292D3E url(../img/vlad-goran-2.jpg);
-  background-size: cover;
-  margin: calc(var(--fr) * 2) auto;
-  margin-top: 0;
+.greeting {
+  color: #B48EAD;
 }
 
 
-.faroe {
+.intro {
 font-size: 18px;
-color: #4C566A;
+color: #E5E9F0;
 }
 
 label {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  display: block;
 }
-.fruity {
+
+input {
+  margin-top: 0px;
+}
+
+.contact {
   border: 2px solid transparent;
   background: #D8DEE9;
   width: 35%;
-  padding: 5px;
-  margin-top; 0px;
+  padding: 10px;
 }
 
-.lime {
-  background: #BF616A;
+.submitbutton {
+  background: #B48EAD;
   font-weight: bold;
   color: white;
   padding: 5px 12px; 
@@ -53,39 +55,37 @@ label {
   width: 100px;
   height: 50px;
   font-size: 16px;
+  margin-top: 10px;
 }
-.lime:hover {
-  background: #B48EAD;
+.submitbutton:hover {
+  background: #8FBCBB;
   color: white;
   border: 2px solid transparent;
 }
 
-.padded {
-padding: 40px;
-margin: 0 auto;
-max width: 1000px;
-text-align: center;
-}
-
-.paddington {
-  padding: 40px;
-  margin: 0 auto;
-  max width; 1000px;
-}
-
 .container {
 	display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container2 {
+  text-align: center;
+  margin-top: 140px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .column-a {
-  width: 30%;
+  width: 40%;
   border-top: 40px solid transparent;
   border-left: 40px solid transparent;
 }
 
 .column-b{
-  width: 70%;
-  border-top: 60px solid transparent;
+  width: 60%;
+  border-top: 120px solid transparent;
   border-left: 20px solid transparent;
 }
 
@@ -94,3 +94,24 @@ text-align: center;
   border-left: 40px solid transparent;
 }
 
+.formtitle{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #B48EAD;
+}
+
+.picture{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #ECEFF4 url(Monika.jpg);
+  background-size: cover;
+  margin: calc(var(--fr) * 2) auto;
+  margin-top: 0;
+}
+
+.formsection {
+border-top: 60px solid transparent;
+border-bottom: 60px solid transparent;
+}
