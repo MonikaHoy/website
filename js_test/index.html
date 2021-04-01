@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.yes {
+font-size: 42px;
+}
+.no {
+font-size: 42px;
+}
+.hidden {
+display: none;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <label for="age">Age</label><br/>
+        <input type="number" id="age" min="1" max="101"/>
+    </div>  
+    <div>
+        <button type="submit" onclick="ageFunction ()">can i drive?</button>
+    </div>  
+    <div>
+        <span id="yes" class="yes hidden">yes</span>
+        <span id="no" class="no hidden">no</span>
+    </div>
+<script>
+   function ageFunction () {
+   var ageElement = document.getElementById("age")
+    var age = ageElement.value;
+    if (age >= 18) {
+        document.getElementById("yes").classList.remove("hidden");
+        document.getElementById("no").classList.add("hidden");
+    } else {
+        document.getElementById("no").classList.remove("hidden");
+        document.getElementById("yes").classList.add("hidden");
+    }
+   };
+   
+   function clear () {
+         document.getElementById("").reset(); 
+   };
+
+
+     
+
+</script>    
+</body>
+</html>
