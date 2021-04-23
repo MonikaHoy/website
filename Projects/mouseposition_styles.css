@@ -1,0 +1,22 @@
+.topboxes, .bottomboxes {
+    display: flex;
+}
+
+
+
+.topboxes input, label, .bottomboxes input, label {
+    display: block;
+}
+
+label {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+html {
+    background: indigo;
+}
+
+

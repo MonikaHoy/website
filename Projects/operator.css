@@ -1,0 +1,12 @@
+select {
+    width: 90px;
+    color: grey;
+    padding: 3px;
+  }
+
+.input {
+    text-align: center;
+    width: 85px;
+    color: grey;
+    padding: 3px;
+}

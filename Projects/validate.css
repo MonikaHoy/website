@@ -1,0 +1,15 @@
+.ok {
+    background: green;
+    padding: 5px;
+    color: white;
+}
+
+.not-ok {
+    background: red;
+    padding: 5px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
