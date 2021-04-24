@@ -13,7 +13,7 @@ function scrollScrollBoxToBottom(){
 }
 
 function addMessage () {
-    // get the value
+    // get the value from the text input 
     const text = message.value;
 
     // check that the value is not empty
@@ -88,6 +88,7 @@ let messages = [
 ]
 
 function renderMessage(text, name, url) {
+    //function that makes a message into html 
     return `<div  class="message">
         <div>
             <img src="${url}" alt="Female avatar">
