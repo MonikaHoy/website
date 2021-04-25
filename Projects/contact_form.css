@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    height: 300px;
+    width: 30vh;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: small;
+}
+
+textarea {
+    height: 150px;
+    width: 200px;
+    font-family: sans-serif;
+}
+
+.right-column {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+input {
+    padding: 2px;
+    margin-top: 2px;
+    width: 165px;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.left-column {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.text {
+    font-family: sans-serif;
+    color: red;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.ok-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 42px;
+    color: pink;
+}
+
+
+.hidden {
+    display: none;
+}
