@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="age_validation.css"> 
+  <title>Validate age</title>
+</head>
+<body>
+    <div id="age-screen" class="age-screen">
+        <div>
+            <div>
+                <p>Your date of birth:</p>
+            </div>
+            <div>
+                <select name="day" id="day">
+                    <option value="" disabled selected>Day</option>
+                </select>
+                <select name="month" id="month">
+                    <option value="" value="" disabled selected>Month</option>
+                    <option value="0">January</option>
+                    <option value="1">February</option>
+                    <option value="2">March</option>
+                    <option value="3">April</option>
+                    <option value="4">May</option>
+                    <option value="5">June</option>
+                    <option value="6">July</option>
+                    <option value="7">August</option>
+                    <option value="8">September</option>
+                    <option value="9">October</option>
+                    <option value="10">November</option>
+                    <option value="11">December</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="" disabled selected>Year</option>
+                </select>
+                <button id="button" type="submit">Am I old enough?</button>
+            </div>
+        </div>
+    </div>
+    <div id="hidden-screen" class="new-screen hidden">
+        <p>hi old goaty!</p>
+    </div>
+<script src="age_validation.js"></script>
+</body>
+</html>

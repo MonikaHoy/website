@@ -1,0 +1,68 @@
+.container {
+    height: 300px;
+    width: 200px; 
+}
+
+.scrollbox {
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-style: solid;
+    border-width: 0.02px;
+    border-color: grey;
+    height: 250px;
+}
+.chatbox {
+    width: 200px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100%;
+}
+
+.message {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.chat-text {
+    width: 70%;
+    height: 40px;
+}
+
+.greeting {
+    font-size: 15px;
+}
+
+.chat-name {
+    font-size: 10px;
+    color: grey;
+}
+
+.button {
+    background: pink;
+    border: grey;
+    border-style: solid;    
+    border-width: 0.02px;
+    padding: 4px;
+    font-family: sans-serif;
+}
+
+input {
+    font-family: sans-serif;
+    padding: 4px;
+}
+
+
+.lowerpart {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+}

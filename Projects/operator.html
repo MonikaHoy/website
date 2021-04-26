@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Operator</title>
+  <link rel="stylesheet" href="operator.css"/>
+</head>
+<body>
+    <input id="firstInput" class="input" type="number" placeholder="A"/>
+    <select name="operators" id="operators" placeholder="Operator">
+        <option value="" disabled selected>Operator</option>
+        <option id="add" value="add">+</option>
+        <option id="sub" value="sub">-</option>
+        <option id="multi" value="multi">*</option>
+        <option id="divi" value="divi">/</option>
+    </select>
+    <input id="secondInput" class="input" type="number" placeholder="B"/>
+    <input id="result" class="input" type="number" placeholder="Result" readonly/>
+<script src="operator.js"></script>
+</body>
+</html>

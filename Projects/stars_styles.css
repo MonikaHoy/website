@@ -1,0 +1,22 @@
+img {
+    width: 20px;
+    height: 20px;
+}
+
+span {
+    display: inline-block;
+
+}
+
+.container {
+    margin: 40px;
+}
+
+input {
+    width: 30px; 
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+

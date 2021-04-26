@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="contact_form.css"/>
+  <title>Contact form</title>
+</head>
+<body>
+    <form id="form" class="container form">
+        <div class="left-column">
+            <div class="row">
+                <div>
+                    <label for="first-name">First name:</label>
+                </div>
+                <div>
+                    <input type="text" name ="first-name" id="first-name"/>
+                </div>
+                <div id="div-firstname" class="hidden">
+                    <p class="text">Must be 2 or more characters</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="surname">Surname:</label>
+                </div>
+                <div>
+                    <input type="text" name="surname" id="surname"/>
+                </div>
+                <div id="div-surname" class="hidden">
+                    <p class="text">Must be 2 or more characters</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="email">Email:</label>
+                </div>
+                <div>
+                    <input type="text" name="email" id="email"/>
+                </div>
+                <div id="div-email" class="hidden">
+                    <p class="text">Enter valid email address</p>
+                </div>
+            </div>
+            <div class="row">
+                <input type="checkbox" name="checkbox" id="checkbox"/>
+                <label for="checkbox">Agree</label>
+                <div id="div-check" class="hidden">
+                    <p class="text">You have to agree</p>
+                </div>
+            </div>
+            <div>
+                <button type="submit" id="button">Submit!</button>
+            </div>
+        </div>
+        <div class="right-column">
+            <textarea id="message" name="message" placeholder="Your message here"></textarea>
+            <div id="div-message" class="hidden">
+                <p class="text">Please write a message</p>
+            </div>
+        </div>
+    </form>
+    <div id="ok-screen" class="hidden">
+    </div>
+    <script src="contact_form.js"></script>
+</body>
+</html>

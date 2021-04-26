@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.age-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.new-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 42px;
+    color: aquamarine;
+    background-color: black;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.hidden {
+    display: none;
+}
