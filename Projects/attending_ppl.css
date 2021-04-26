@@ -1,0 +1,22 @@
+input[type=button] {
+    text-decoration: underline;
+    color: blue;
+    border: none;
+    background: none;
+    font-family: sans-serif;
+}
+
+td {
+    width: 150px;
+    font-family: sans-serif;
+}
+
+th {
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.container {
+    padding: 40px;
+}
