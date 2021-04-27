@@ -18,6 +18,7 @@ function clear () {
 inputEmail.addEventListener("keyup", function (e) {
     if (e.key === 'Enter') {
         addAttendees();
+        clear();
     }
 });
 

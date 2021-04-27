@@ -59,8 +59,7 @@ let messages = [
         url: "woman_icon.jpg",
         text: "Hello!",
         name: "Melly Mustermann",
-    },
-    {
+    }
 ]
 
 function renderMessage(text, name, url) {

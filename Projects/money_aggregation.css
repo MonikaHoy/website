@@ -1,0 +1,36 @@
+button {
+    text-decoration: underline;
+    color: blue;
+    border: none;
+    background: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+td {
+    width: 150px;
+    font-family: sans-serif;
+}
+
+th {
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.container {
+    padding: 40px;
+}
+
+.cost {
+    font-family: sans-serif;
+    padding: 4px;
+    width: 30px;
+    border: none;
+}
+
+.total {
+    text-align: left;
+    width: 70px;
+    border: none;
+}
