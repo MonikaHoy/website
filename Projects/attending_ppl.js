@@ -6,7 +6,20 @@ const table = document.getElementById("table-input");
 //call function "add attendees" when pressing button
 addPerson.addEventListener('click', function() {
     addAttendees();
+    clear();
 })
+
+//clear inputs after entering
+function clear () {
+    inputName.value = "";
+    inputEmail.value = "";
+}
+
+inputEmail.addEventListener("keyup", function (e) {
+    if (e.key === 'Enter') {
+        addAttendees();
+    }
+});
 
 //create a function that make object of name and email inputs and adds them to the array "attendees"
 function addAttendees () {
@@ -15,18 +28,15 @@ function addAttendees () {
     const email = inputEmail.value;
 
     if (person === "") {
-        //return 
-        console.log("not ok name")
+        return 
     }
     
     if (email === "") {
-        //return
-        console.log("not ok mail")
+        return
     }
 
     if (person.length <= 2) {
-        //return
-        console.log("name length not ok")
+        return
     }
 
     const newAttendee = {
@@ -40,16 +50,7 @@ function addAttendees () {
 }
 
 //create an array
-let attendees = [
-    {
-        name: "monika",
-        email: "an email"
-    },
-    {
-        name: "good",
-        email: "luck"
-    },
-] 
+let attendees = [] 
 
 //create function that turns a single array object (name and email) into html string 
 function renderAttend(person, email) {
@@ -79,7 +80,7 @@ function renderAttendees () {
     theFinalHtml += newHtml;
     }
 
-    table.innerHTML += theFinalHtml; 
+    table.innerHTML = theFinalHtml; 
 };
 
 //call function so screen is not empty when opening 
