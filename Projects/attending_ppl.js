@@ -3,8 +3,12 @@ const inputEmail = document.getElementById("email");
 const button = document.getElementById("button");
 const table = document.getElementById("table-input");
 
+//call function "add attendees" when pressing button
+button.addEventListener('click', function() {
+    addAttendees();
+})
 
-//create a function that takes name and email inputs and adds them to the array "attendees"
+//create a function that make object of name and email inputs and adds them to the array "attendees"
 function addAttendees () {
     console.log("i'm adding!");
     const person = inputName.value;
@@ -46,11 +50,6 @@ let attendees = [
         email: "luck"
     },
 ] 
-
-//call function "add attendees" when pressing button
-button.addEventListener('click', function () {
-    addAttendees();
-})
 
 //create function that turns a single array object (name and email) into html string 
 function renderAttend(person, email) {
