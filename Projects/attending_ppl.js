@@ -23,7 +23,6 @@ inputEmail.addEventListener("keyup", function (e) {
 
 //create a function that make object of name and email inputs and adds them to the array "attendees"
 function addAttendees () {
-    console.log("i'm adding!");
     const person = inputName.value;
     const email = inputEmail.value;
 
@@ -54,8 +53,6 @@ let attendees = []
 
 //create function that turns a single array object (name and email) into html string 
 function renderAttend(person, email) {
-    console.log("render attend is running");
-
     return `<tr>
     <td>
         <input type="text" value="${person}"/>
@@ -67,8 +64,6 @@ function renderAttend(person, email) {
 
 //create function that renders all attendees to html string
 function renderAttendees () {
-    console.log("render is running");
-
     let theFinalHtml = "";
 
     for(let i = 0; i < attendees.length; i++) {
