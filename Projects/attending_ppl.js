@@ -1,6 +1,6 @@
 const inputName = document.getElementById("name");
 const inputEmail = document.getElementById("email");
-const button = document.getElementById("button");
+const button = document.getElementById("add-person");
 const table = document.getElementById("table-input");
 
 //call function "add attendees" when pressing button
