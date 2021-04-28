@@ -16,10 +16,21 @@ inputCost.addEventListener("keyup", function (e) {
     }
 });
 
+inputName.addEventListener("keyup", function (e) {
+    if (e.key === 'Enter') {
+        addMoney();
+        clear();
+    }
+});
+
 //function declarations 
 function clear () {
     inputName.value = "";
     inputCost.value = "";
+}
+
+function setFocus () {
+    inputName.focus(); 
 }
 
 function sum () {
@@ -47,13 +58,14 @@ function addMoney () {
     contributions.push(newContri);
 
     renderContributions();
+
+    setFocus();
 }
 
 //create an array
 let contributions = [] 
 
 function renderCon(person, cost) {
-    console.log("i'm rendering money");
     return `<tr>
     <td>
         <input type="text" value="${person}"/>
@@ -65,7 +77,6 @@ function renderCon(person, cost) {
 
 //create function that renders all attendees to html string
 function renderContributions () {
-    console.log("I am too!")
     let theFinalHtml = "";
 
     for(let i = 0; i < contributions.length; i++) {

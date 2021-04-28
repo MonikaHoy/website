@@ -22,6 +22,10 @@ inputEmail.addEventListener("keyup", function (e) {
     }
 });
 
+function setFocus () {
+    inputName.focus(); 
+}
+
 //create a function that make object of name and email inputs and adds them to the array "attendees"
 function addAttendees () {
     const person = inputName.value;
@@ -47,6 +51,8 @@ function addAttendees () {
     attendees.push(newAttendee);
 
     renderAttendees();
+
+    setFocus();
 }
 
 //create an array
