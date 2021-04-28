@@ -23,15 +23,13 @@ function clear () {
 }
 
 function sum () {
-    "I show the money"
     const a = Number(inputCost.value);
     const b = Number(total.value);
     let c = Number(total.value) + Number(inputCost.value);
-    total.value = c;
+    total.value = c; 
 }
 
 function addMoney () {
-    console.log("I'm adding")
     const person = inputName.value;
     const cost = inputCost.value;
 
