@@ -31,8 +31,8 @@ function clearInput () {
     writeTag.value = "";
 }
 
-function renderTag (text,url) {
-    return `<div class="input-tag" id="input-tag">
+function renderTag (text,url, id) {
+    return `<div class="input-tag" id="${id}">
     <div class="tag">
         <span>${text}</span>
     </div>
@@ -47,7 +47,7 @@ function renderTagBox () {
 
     for(let i = 0; i < tags.length; i++) {
        const tgs = tags[i];
-        let tagsHtml = renderTag(tgs.input, tgs.url);
+        let tagsHtml = renderTag(tgs.input, tgs.url, tgs.id);
 
         finalHtml += tagsHtml; 
     }
