@@ -37,7 +37,7 @@ function sum () {
     const a = Number(inputCost.value);
     const b = Number(total.value);
     let c = Number(total.value) + Number(inputCost.value);
-    total.value = c; 
+    total.value = c + "$"; 
 }
 
 function addMoney () {

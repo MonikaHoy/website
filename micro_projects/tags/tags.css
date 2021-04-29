@@ -1,0 +1,42 @@
+.container {
+    height: 300px;
+    width: 400px; 
+}
+
+.scrollbox {
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-style: solid;
+    border-width: 0.02px;
+    border-color: grey;
+    height: 250px;
+}
+
+.row-top {
+    margin-bottom: 10px;
+}
+    
+.tag-box {
+    min-width: 100%;
+    display: flex; 
+    justify-content: flex-start;
+    min-height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.input-tag {
+    border: solid 0.5px;
+    border-color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    height: 40px;
+    margin: 2px;
+}
+
+img {
+    width: 20px;
+    height: 30px;
+}

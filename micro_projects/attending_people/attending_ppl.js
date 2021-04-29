@@ -52,7 +52,7 @@ function addAttendees () {
 
     renderAttendees();
 
-    setFocus();
+    setFocus(); 
 }
 
 //create an array
