@@ -13,7 +13,7 @@ textInput.addEventListener('input', clear);
 
 function clear () { 
   if (textInput.value.trim() === "") {
-    tableBody.innerHTML = `<tr class="row">
+    tableBody.innerHTML = `<tr>
     <td>
       <input class="dark" type="text" value="Name" readonly>
     </td>
@@ -22,7 +22,7 @@ function clear () {
 }
 
 function renderName (name) {
-  return `<tr class="row">
+  return `<tr>
   <td>
     <input class="row" type="text" value="${name}" readonly>
   </td>
@@ -30,7 +30,7 @@ function renderName (name) {
 }
 
 function renderList () {
-  let finalHtml = `<tr class="row">
+  let finalHtml = `<tr>
   <td>
     <input class="dark" type="text" value="Name" readonly>
   </td>

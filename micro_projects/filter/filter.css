@@ -1,5 +1,5 @@
 .dark {
-    padding: 4px; 
+    padding: 2px; 
     background-color: lightblue;
     border: none; 
 }
@@ -9,9 +9,10 @@
     margin-top: 3px;
 }
 
-.rows {
+.row {
     background-color: lightgrey;
     border: none; 
+    padding: 2px;
 }
 
 label {
