@@ -1,0 +1,19 @@
+.dark {
+    padding: 4px; 
+    background-color: lightblue;
+    border: none; 
+}
+
+.table {
+    border: solid 0.02px;
+    margin-top: 3px;
+}
+
+.rows {
+    background-color: lightgrey;
+    border: none; 
+}
+
+label {
+    font-family: sans-serif;
+}
