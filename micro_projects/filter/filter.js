@@ -2,11 +2,9 @@ const textInput = document.getElementById("filter");
 const tableBody = document.getElementById("tbl");
 
 
-textInput.addEventListener('keyup', function(e) {
-  if(e.key === 'Enter') {
+textInput.addEventListener('input', function() {
     textInput.value.toLowerCase(); 
     renderList();
-  }
 })
 
 textInput.addEventListener('input', clear); 
@@ -38,22 +36,19 @@ function renderList () {
 
   if(textInput.value === "") {
     return;
-  }
+  } else {
  
-  for(i = 0; i < names.length; i++) {
-    const aNewName = names[i];
-
-    const newName = aNewName.toLowerCase(); 
-
-    if(newName.startsWith(textInput.value)) {
-      
-      const html = renderName(aNewName);
+    const result = names.filter(word => word.toLowerCase().includes(textInput.value));
+  
+    for(i = 0; i < result.length; i++) {
+      const filterName = result[i]; 
+      const html = renderName(filterName);
 
       finalHtml += html; 
     }
-  }
 
     tableBody.innerHTML = finalHtml; 
+  }
 }
 
 clear(); 
