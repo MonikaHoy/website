@@ -1,9 +1,13 @@
 html, body {
-  background: ##ECEFF4;
+  background: #ECEFF4;
   color: #2E3440;
   margin: 0; 
   padding: 0; 
   font-family: sans-serif;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 a{
@@ -35,18 +39,39 @@ h4 {
   font-weight: bolder;
 }
 
+.nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw; 
+  height: 30px; 
+  box-sizing: inherit;
+  background: #ECEFF4;
+}
+
+.nav-list {
+  list-style: none; 
+  display: flex;
+  margin-right: 10px;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: ;
+}
+
+.nav-list a {
+  display: block;
+  padding: 2rem;
+}
+
 .highlight {
   color: #EC3B83;
   font-weight: bold;
 }
 
-.container {
-
-}
-
 section {
   display: flex;
   position: relative;
+  box-sizing: inherit;
 }
 
 .outer {
