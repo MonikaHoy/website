@@ -40,11 +40,9 @@ h4 {
 }
 
 .nav-bar {
-  position: fixed;
   display: flex;
   justify-content: flex-end;
   width: 100vw; 
-  height: 30px; 
   box-sizing: inherit;
   background: #ECEFF4;
 }
