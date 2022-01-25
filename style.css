@@ -1,8 +1,9 @@
-html, body {
-  background: #ECEFF4;
-  color: #2E3440;
-  margin: 0; 
-  padding: 0; 
+html,
+body {
+  background: #eceff4;
+  color: #2e3440;
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
 }
 
@@ -11,20 +12,19 @@ html {
   margin-top: 30px;
 }
 
-a{
-  color: #EC3B83; 
+a {
+  color: #ec3b83;
   font-weight: bold;
 }
 
-h1{
+h1 {
   font-size: 52px;
   margin: auto;
   text-align: center;
 }
 
-h2
-{
-  font-size: 22px; 
+h2 {
+  font-size: 22px;
   font-weight: lighter;
   text-align: center;
 }
@@ -41,20 +41,19 @@ h4 {
 }
 
 .nav-bar {
-  position: fixed;
   display: flex;
   justify-content: flex-end;
-  width: 100%; 
-  background: #ECEFF4;
+  width: 100vw;
+  box-sizing: inherit;
+  background: #eceff4;
 }
 
 .nav-list {
-  list-style: none; 
+  list-style: none;
   display: flex;
   margin-right: 10px;
   width: 100%;
   justify-content: flex-end;
-  background-color: ;
 }
 
 .nav-list a {
@@ -62,7 +61,7 @@ h4 {
 }
 
 .highlight {
-  color: #EC3B83;
+  color: #ec3b83;
   font-weight: bold;
 }
 
@@ -72,10 +71,6 @@ section {
   box-sizing: inherit;
 }
 
-.outer {
-
-}
-
 .inner {
   max-width: 1000px;
   padding: 40px;
@@ -83,7 +78,7 @@ section {
 }
 
 .wide {
-  width: 100%; 
+  width: 100%;
 }
 
 .top {
@@ -109,21 +104,22 @@ label {
   display: block;
 }
 
-form input, form textarea {
-  width: 100%; 
-  padding: 10px; 
-  background: #D8DEE9;
-  border: none; 
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  background: #d8dee9;
+  border: none;
   font-size: 18px;
 }
 
 .btn {
-  background: #8FBCBB;
+  background: #8fbcbb;
   font-weight: bold;
   color: white;
-  padding: 5px 12px; 
+  padding: 5px 12px;
   border: 2px solid transparent;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
   width: 100px;
   height: 50px;
@@ -135,4 +131,3 @@ form input, form textarea {
   color: white;
   border: 2px solid transparent;
 }
-
