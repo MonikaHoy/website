@@ -1,0 +1,32 @@
+.container {
+  width: 40%;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.name {
+  font-family: var(--ffm-secondary);
+}
+
+.link {
+  color: var(--c-text-secondary);
+  font-family: var(--ffm-secondary);
+}
+
+.picture {
+  width: 70%;
+}
+
+.imageContainer {
+  padding: 10px 0 10px 0;
+}

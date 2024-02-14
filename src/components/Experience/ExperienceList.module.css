@@ -1,0 +1,14 @@
+.container {
+  margin-bottom: 1rem;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.body {
+  margin-top: 0.5rem;
+}
