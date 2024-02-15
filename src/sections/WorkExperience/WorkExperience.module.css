@@ -1,0 +1,11 @@
+.container {
+  width: 60%;
+}
+
+.containerCollapsed {
+  width: 100%;
+}
+
+.projectsContainer {
+  margin-top: 0.5rem;
+}
