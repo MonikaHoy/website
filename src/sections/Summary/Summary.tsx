@@ -19,7 +19,7 @@ export default function Summary({ isSmallScreen }: SummaryProps) {
         <h2 className={style.name}>Monika Louise Bro Høy</h2>
         <div className={style.infoContainer}>
           <FaGlobe color="#DC2CF9" />
-          <p>Berlin</p>
+          <p>Berlin, Germany</p>
         </div>
         <div className={style.infoContainer}>
           <FaLinkedin />
