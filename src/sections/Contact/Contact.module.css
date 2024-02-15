@@ -1,0 +1,10 @@
+.button {
+  width: 70px;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: var(--c-text);
+  font-family: var(--ffm-secondary);
+  border: none;
+  align-items: center;
+}

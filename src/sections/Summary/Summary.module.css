@@ -2,6 +2,10 @@
   width: 40%;
 }
 
+.containerCollapsed {
+  width: 100%;
+}
+
 .content {
   margin-bottom: 30px;
 }
@@ -16,6 +20,7 @@
 
 .name {
   font-family: var(--ffm-secondary);
+  font-size: 1.2rem;
 }
 
 .link {

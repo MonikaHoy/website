@@ -14,7 +14,8 @@ const experience: Experience[] = [
     location: "Berlin",
     startDate: "2023",
     endDate: "",
-    description: "Keeping the app up to date and adding new features",
+    description:
+      "Equalista is the first gender equality learning app, created in a small but fiery start up that's revolutionising a, so far, untouched app topic. At Equalista I am keeping the app up to date and adding new features",
   },
   {
     title: "React Native Engineer",

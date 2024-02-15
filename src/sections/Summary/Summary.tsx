@@ -3,9 +3,15 @@ import SkillsList from "../../components/Skills/SkillsList";
 import { FaLinkedin, FaGlobe } from "react-icons/fa";
 import picture from "../../assets/images/Monika.jpg";
 
-export default function Summary() {
+interface SummaryProps {
+  isSmallScreen?: boolean;
+}
+
+export default function Summary({ isSmallScreen }: SummaryProps) {
   return (
-    <section className={style.container}>
+    <section
+      className={isSmallScreen ? style.containerCollaped : style.container}
+    >
       <div className={style.content}>
         <div className={style.imageContainer}>
           <img src={picture} alt="Monika" className={style.picture} />
