@@ -1,6 +1,6 @@
 import style from "./Summary.module.css";
 import SkillsList from "../../components/Skills/SkillsList";
-import { FaLinkedin, FaGlobe } from "react-icons/fa";
+import { FaLinkedin, FaGlobe, FaGithub } from "react-icons/fa";
 import picture from "../../assets/images/Monika.jpg";
 
 interface SummaryProps {
@@ -22,7 +22,7 @@ export default function Summary({ isSmallScreen }: SummaryProps) {
           <p>Berlin, Germany</p>
         </div>
         <div className={style.infoContainer}>
-          <FaLinkedin />
+          <FaLinkedin color="blue" />
           <a
             href="https://www.linkedin.com/in/monika-h%C3%B8y-46aa47138/"
             title="LinkedIn"
@@ -31,6 +31,18 @@ export default function Summary({ isSmallScreen }: SummaryProps) {
             className={style.link}
           >
             LinkedIn
+          </a>
+        </div>
+        <div className={style.infoContainer}>
+          <FaGithub />
+          <a
+            href="https://github.com/MonikaHoy"
+            title="Github"
+            target="_blank"
+            rel="noreferrer"
+            className={style.link}
+          >
+            Github
           </a>
         </div>
       </div>
