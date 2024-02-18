@@ -9,11 +9,11 @@ type Skill = {
 
 const skills: Skill[] = [
   { name: "React / React Native", icon: <FaReact color="#61dafb" /> },
-  { name: "JavaScript", icon: <FaJs color="yellow" /> },
+  { name: "JavaScript", icon: <FaJs color="#F6BE00" /> },
   { name: "TypeScript", icon: <BiLogoTypescript color="#0146b3" /> },
   { name: "HTML", icon: <FaHtml5 color="#e34c26" /> },
-  { name: "CSS", icon: <FaCss3 /> },
-  { name: "Figma", icon: <FaFigma color="indigo" /> },
+  { name: "CSS", icon: <FaCss3 color="indigo" /> },
+  { name: "Figma", icon: <FaFigma color="#e75480" /> },
   { name: "Jira", icon: <SiJira color="#0052cc" /> },
 ];
 
