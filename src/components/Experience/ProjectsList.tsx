@@ -7,7 +7,12 @@ export default function ProjectsList() {
       {projects.map((proj, index) => (
         <div key={index}>
           <div className={style.headerContainer}>
-            <h2>{proj.title}</h2>
+            <h2>
+              <a href={proj.url} target="_blank" rel="noreferrer">
+                {proj.title}{" "}
+              </a>
+            </h2>
+
             <p>{proj.date ? proj.date : null}</p>
           </div>
           <div className={style.body}>

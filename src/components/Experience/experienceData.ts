@@ -1,6 +1,7 @@
 type Experience = {
   title: string;
   company: string;
+  url?: string;
   location: string;
   endDate: string;
   description: string;
@@ -11,6 +12,7 @@ const experience: Experience[] = [
   {
     title: "Mobile Developer",
     company: "Equalista",
+    url: "https://equalista.com/",
     location: "Berlin",
     startDate: "2023",
     endDate: "",
@@ -20,6 +22,7 @@ const experience: Experience[] = [
   {
     title: "React Native Engineer",
     company: "LIVEBUY",
+    url: "https://www.livebuy.io/",
     location: "Berlin",
     startDate: "2022",
     endDate: "2023",
@@ -29,6 +32,7 @@ const experience: Experience[] = [
   {
     title: "Mobile Developer",
     company: "Equalista",
+    url: "https://equalista.com/",
     location: "Berlin",
     startDate: "2021",
     endDate: "2022",
@@ -38,6 +42,7 @@ const experience: Experience[] = [
   {
     title: "Frontend Developer intern",
     company: "Equalista",
+    url: "https://equalista.com/",
     location: "Berlin",
     startDate: "2021",
     endDate: "2021",
@@ -47,6 +52,7 @@ const experience: Experience[] = [
   {
     title: "Content Researcher",
     company: "Equalista",
+    url: "https://equalista.com/",
     location: "Berlin",
     startDate: "2020",
     endDate: "2021",
@@ -56,6 +62,7 @@ const experience: Experience[] = [
   {
     title: "Localisation Specialist",
     company: "KAYAK",
+    url: "https://www.kayak.com/about",
     location: "Berlin",
     startDate: "2021",
     endDate: "2022",

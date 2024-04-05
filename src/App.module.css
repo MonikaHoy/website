@@ -56,6 +56,12 @@ h2 {
   font-weight: lighter;
 }
 
+h2 a {
+  color: var(--c-text);
+  text-decoration: none;
+  display: block;
+}
+
 h3 {
   color: var(--c-text-secondary);
   font-family: var(--ffm-secondary);
@@ -66,6 +72,12 @@ p {
   color: var(--c-text-secondary);
   font-family: var(--ffm-secondary);
   margin: 0;
+}
+
+p a {
+  color: var(--c-text);
+  text-decoration: none;
+  display: block;
 }
 
 input {

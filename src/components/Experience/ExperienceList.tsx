@@ -12,7 +12,11 @@ export default function ExperienceList() {
               {exp.startDate} - {exp.endDate === "" ? "Present" : exp.endDate}
             </p>
           </div>
-          <p> @{exp.company}</p>
+          <p>
+            <a href={exp.url} target="_blank" rel="noreferrer">
+              @{exp.company}{" "}
+            </a>
+          </p>
           <div className={style.body}>
             <p>{exp.description}</p>
           </div>
