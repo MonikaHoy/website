@@ -21,10 +21,6 @@ function App() {
         <Summary isSmallScreen={isTabletOrMobile} />
         <WorkExperience isSmallScreen={isTabletOrMobile} />
       </div>
-      <div className={style.formContainer}>
-        <h1>Get in touch!</h1>
-        <ContactForm />
-      </div>
     </div>
   );
 }

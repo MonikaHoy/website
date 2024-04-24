@@ -94,7 +94,3 @@ textarea {
   border: solid 0.02rem var(--c-text-secondary);
   height: 10vh;
 }
-
-form {
-  width: 100%;
-}
