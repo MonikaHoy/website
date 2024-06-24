@@ -1,5 +1,4 @@
 import style from "./App.module.css";
-import ContactForm from "./sections/Contact/Contact";
 import Introduction from "./sections/Introduction/Introduction";
 import Summary from "./sections/Summary/Summary";
 import WorkExperience from "./sections/WorkExperience/WorkExperience";
